@@ -1,0 +1,81 @@
+/*
+    @author: Claudia McMaster <c.mcmaster2@ncl.ac.uk>
+
+    @description:
+        This lays out the styling for the LoginFunction component. CSS has been used in order to directly override
+        FirebaseUI styles.
+*/
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* styles the firebase submit/save button */
+.firebaseui-id-submit {
+    background-color: orange;
+    width: 100px;
+    padding: 0.5rem;
+        border-radius: 1rem;
+        color: white;
+}
+
+/* styles the other firebaseui buttons and links */
+.firebaseui-id-secondary-link {
+    background-color: orange;
+    width: 100px;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    color: white;
+}
+
+.firebaseui-id-submit:hover {
+    background-color: grey;
+}
+
+.firebaseui-id-secondary-link:hover{
+    background-color: grey;
+}
+
+/* ensure enough space for form input */
+.firebaseui-form-actions {
+    padding: 50px 0;
+    align-items: center;
+    display: flex;
+}
+
+.firebaseui-error {
+    padding-left: 40px;
+    color: red;
+}
+
+.firebaseui-title {
+    padding: 10px 0;
+}
+
+.firebaseui-textfield {
+    height: 50px;
+    width: 300px;
+    margin: 15px 0; 
+}
+
+.mdl-textfield__label {
+    padding-right: 10px;
+}
+
+.mdl-textfield__input{
+    height: 40px;
+    width: 200px;
+    align-items: center;
+    margin: 0;
+} 

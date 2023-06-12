@@ -1,0 +1,14 @@
+/*
+    @author Ray <h.lei3@newcastle.ac.uk>
+
+    @description:
+        Three CSS variables are defined, which represent the primary color, primary hover color, and text color.
+        These variables can be referenced in the style sheet and shared among different elements,
+        making the styles more consistent and easy to modify.
+*/
+
+:root {
+    --main-color: #fe9e0d;
+    --main-hover-color: #ffb03b;
+    --text-color: #8b8683;
+}

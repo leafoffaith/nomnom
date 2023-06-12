@@ -1,0 +1,53 @@
+/* 
+  @author: Claudia McMaster <c.mcmaster2@ncl.ac.uk>
+
+  @description:
+    Global CSS styling that applies to elements throughout the entire website
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif !important; 
+}
+  
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem 0rem;
+}
+
+.App {
+  min-height: 100vh;
+  max-width: 1900px;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0px !important;
+  background-color: #f6f6f6;
+  padding: 4vw 8vw;
+}
+
+.primary-heading {
+  font-size: clamp(2rem, 5vw, 6rem); 
+  color: #4c4c4c;
+}
+
+.primary-text {
+  font-size: clamp(1.5rem, 3vw, 3rem);
+  color: #6a6a6a; 
+}
+
+.main-text {
+  font-size: clamp(1rem, 2vw, 2rem);
+}
+
+.primary-text p {
+  font: "Kalam";
+}
+
+
+

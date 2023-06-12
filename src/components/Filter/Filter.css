@@ -1,0 +1,43 @@
+/*
+    @author: Ray <h.lei3@newcastle.ac.uk>
+
+    @description:
+        Some CSS styles are defined, including the style of the filter header,
+        the style of the close button, the style of the title container and the style of the content container.
+*/
+
+/* import shared style */
+@import "Shared.css";
+
+/* filter head container */
+.filter-header-box {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    position: relative;
+}
+
+/* close button */
+.filter-close {
+    position: absolute;
+    font-size: 2rem !important;
+    left: .5rem;
+    top: .5rem;
+}
+
+/* hover over the close button */
+.filter-close:hover {
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+/* header container */
+.title-box {
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
+/* content container */
+.content-box {
+    padding: 1.5rem;
+}

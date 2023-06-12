@@ -1,0 +1,61 @@
+[ 
+    {
+    "cuisine": "Italian",
+    "icon": "https://cdn-icons-png.flaticon.com/512/4465/4465494.png"
+    },
+
+    {
+    "cuisine": "Indian",
+    "icon": "https://cdn-icons-png.flaticon.com/512/872/872419.png"
+    },
+ 
+    {
+    "cuisine": "American",
+    "icon": "https://cdn-icons-png.flaticon.com/512/4459/4459658.png"
+    },
+  
+    {
+    "cuisine": "Pizza",
+    "icon": "https://cdn-icons-png.flaticon.com/512/6978/6978255.png"
+    },
+
+    {
+    "cuisine": "Steakhouse",
+    "icon": "https://cdn-icons-png.flaticon.com/512/415/415686.png"
+    },
+
+    {
+    "cuisine": "Sushi",
+    "icon": "https://cdn-icons-png.flaticon.com/512/3978/3978725.png"
+    },
+
+    {
+    "cuisine": "Greek",
+    "icon": "https://cdn-icons-png.flaticon.com/512/6978/6978201.png"
+    },
+
+    {
+    "cuisine": "Chinese",
+    "icon": "https://cdn-icons-png.flaticon.com/512/673/673530.png"
+    },
+
+    {
+    "cuisine": "Thai",
+    "icon": "https://cdn-icons-png.flaticon.com/512/2943/2943064.png"
+    },
+
+    {
+    "cuisine": "Turkish",
+    "icon": "https://cdn-icons-png.flaticon.com/512/2755/2755193.png"
+    },
+
+    {
+    "cuisine": "Mexican",
+    "icon": "https://cdn-icons-png.flaticon.com/512/541/541768.png"
+    }
+
+]
+
+
+
+
